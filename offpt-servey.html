@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surver Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Ofppt Survey Form</h1>
+    <p id="description">please fill all information</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+      <label id="name-label">Name
+      <input class="block"id="name" type="text" placeholder="enter your name" required>
+      </label>
+      <label id="email-label">Email<input class="block"id="email" type="email" placeholder="enter your email"required></label>
+      <label id="number-label">Age(optional)<input class="block" id="number" type="number" placeholder="enter your age" max="30" min="17"></label>
+      <label>Select your sex
+        <select class="block" id="dropdown">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <legend>what is your level?</legend>
+        <label for="ts"><input class="inline" id="ts" type="radio" name="level" checked value="ts"> Technicien Spécialisé</label>
+        <label for="t"><input class="inline" id="t" type="radio" name="level" value="t"> Technicien</label>
+        <label for="q"><input class="inline" id="q" type="radio" name="level" value="q"> Qualification</label>
+        <label for="s"><input class="inline" id="s" type="radio" name="level" value="s" > Spécialisation</label>
+      </fieldset>
+      <fieldset>
+        <legend>what is your skill?</legend>
+        <label for="f"><input class="inline" id="f" value="f" type="checkbox"> Front-end Developer</label>
+        <label for="b"><input class="inline" id="b" value="b" type="checkbox"> Back-end Developer</label>
+        <label for="d"><input class="inline" id="d" value="d" type="checkbox"> Database Developer</label>
+      </fieldset>
+      <label> tell us about yourself:
+        <textarea></textarea>
+      </label>
+      <input type="submit" id="submit" >
+    </form>
+  </body>
+</html>

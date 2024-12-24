@@ -1,0 +1,63 @@
+body{
+    background:url(https://quid.ma/uploads/articles/large/438.jpg) no-repeat fixed;
+    background-size:cover;
+    font-family:sans;
+  }
+  h1,p{
+    margin:20px auto;
+    text-align:center;
+    color:#0066ff;
+    font-family:sans;
+  }
+  
+  form{
+    max-width:800px;
+    margin:0 auto;
+    backdrop-filter: blur(19px);
+    border-radius:40px;
+    border:2px solid #0066ff;
+    padding:2px 2px ;
+  
+  }
+  input ,label ,select,textarea {
+    display:block;
+    
+    
+  }
+  fieldset{
+    border:0;
+    margin:20px 0;
+  }
+  legend{
+    color:#00f100;
+    font-size:20px;
+  }
+  input,select,textarea{
+    width:98%;
+    margin:0 auto;
+  }
+  textarea{
+    min-width:98%;
+    min-height:80px;
+    max-width:98%;
+  }
+  
+  #submit{
+    margin:12px auto;
+    width:100px;
+    border:1px solid blue;
+    border-radius:5px;
+  }
+  .block{
+    height:2rem;
+    margin-bottom:1em;
+  }
+  label{
+    color:white;
+  }
+  .inline{
+   display:inline;
+   margin-right:-13rem;
+   margin-left:-15em;
+  }
+  
